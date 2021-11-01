@@ -76,6 +76,8 @@ section {
     background-size: cover;
     background-position: center;
     position: relative;
+    display: flex;
+    flex-direction: row;
 }
 
 .hero-form {
@@ -84,11 +86,27 @@ section {
     width: 500px;
     color: #024e76;
     border: solid 3px #024e76;
-    position: absolute;
+    position: absolute; 
     bottom: 120px;
     right: 140px;
 }
 
+.hero-action {
+    text-align: right;
+    width: 400px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.hero-action h1 {
+    color: #fce138;
+    font-size: 40px;
+}
+
+.hero-action p {
+    color: #ffffff;
+    font-
+}
 section div h3 {
     font-size: 1.4em;
     margin: 0;
