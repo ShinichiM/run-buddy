@@ -180,10 +180,11 @@ section div h3 {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -195,10 +196,6 @@ section div h3 {
 }
 /* --------------------------------------------------------------------------------*/
 /* What We do Styling*/
-.intro {
-    text-align: center;
-}
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -206,11 +203,11 @@ section div h3 {
     font-size: 20px;
     /*below - short hand setting top/bot margin = zero, left/right = auto ONLY FOR HORIZONTAL MARGIN WE SET AUTO*/
     margin: 0 auto;
+    text-align: center;
 }
 /* --------------------------------------------------------------------------------*/
 /* What you Do section styling*/
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -238,6 +235,7 @@ section div h3 {
     font-size: 38px;
 }
 
+/*  ------------ Trainers Section Start --------------------- */
 .trainers {
     text-align: center; 
 }
@@ -260,14 +258,6 @@ section div h3 {
     width: 65%;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -283,10 +273,11 @@ section div h3 {
     font-size: 17px;
     line-height: 1.3;
 }
+/* ----------------------- Trainer Section End -------------------------------- */
 
+/* --------------------------- Contact Section Start --------------------------- */
 .contact {
     background-color: #024e76;
-    text-align: center;
 }
 
 .contact-header {
@@ -328,55 +319,17 @@ section div h3 {
 .contact-info a {
     color: #fce138;
 }
-/* .address {
-    display: inline-block;
-    color: white;
-    position: relative;
-    margin: 0 auto;
+/* --------------------- Contact Section End ------------------------------ */
+
+/*  ------------------------- Start Utilities ----------------------------- */
+.flex-row {
+    display: flex;
 }
 
-.address h3 {
-    color: #fce138;
+.text-left {
+    text-align: left;
 }
 
-.address address a {
-    color: #fce138;
-} */
-/* .hero-form {
-    padding: 5px;
-    width: auto;
-    border: 2px blue;
-    border-style: solid;
-    float: right;
-    line-height: 1.5;
-    color: #024e76;
-    background-color: #fce138;
-} */
-
-
-/* adding !important after a delcaration will override any conflicting style declarations of that element*/
-
-
-
-/*Applies padding 20px to top*/
-/* 
-header {
-    padding: 20px;
-} */
-
-/*Applies padding 20px to top and 35px to left and right*/
-/* header {
-    padding: 20px 35px;
-} */
-
-/* Top Left Bottom Right*/
-/* header {
-    padding: 10px 15px 20px 25px;
-} */
-/* 
-header {
-    padding-top: 10px;
-    padding-right: 15px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-} */
+.text-right {
+    text-align: right;
+}
